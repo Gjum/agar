@@ -7,7 +7,9 @@ agar.io Python client
 
 `python3 window.py`
 
-Requires `websocket-client` module and GTK.
+## Installation
+
+    pip install -r requirements.txt
 
 Controls
 --------
