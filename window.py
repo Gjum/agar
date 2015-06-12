@@ -284,6 +284,9 @@ class AgarWindow:
         self.screen_scale = self.client.scale \
                             * max(self.win_h / 1080, self.win_w / 1920)
 
+        wl, wt = self.world_to_screen_pos((0,0))
+        wr, wb = self.world_to_screen_pos((self.client.world_size,)*2)
+
         # grid
         c.set_source_rgba(*to_rgba(LIGHTGRAY, .3))
         line_width = c.get_line_width()
