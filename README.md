@@ -7,7 +7,9 @@ pyAgar.io
 
 `python3 main.py`
 
-Requires `websocket-client` module and GTK.
+## Installation
+
+    pip install -r requirements.txt
 
 DISCLAIMER
 ----------
